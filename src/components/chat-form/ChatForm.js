@@ -27,10 +27,10 @@ const ChatForm = ({ selectedConversation, onMessageSubmitted }) => {
                 </div>
                 <input 
                     type="text" 
-                    placeholder="type a message" 
+                    placeholder="メッセージを入力" 
                     value={textMessage}
                     onChange={ (e) => { setTextMessage(e.target.value); } } />
-                <FormButton disabled={ disableButton }>Send</FormButton>
+                <FormButton disabled={ disableButton }>送信</FormButton>
             </>
         );
     
